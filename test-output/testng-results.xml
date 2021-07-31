@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-31T15:53:46 EDT" name="Default suite" finished-at="2021-07-31T15:54:28 EDT" duration-ms="41921">
+    <groups>
+    </groups>
+    <test started-at="2021-07-31T15:53:46 EDT" name="Default test" finished-at="2021-07-31T15:54:28 EDT" duration-ms="41921">
+      <class name="HW4.HW4Class11">
+        <test-method is-config="true" signature="setup()[pri:0, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:46 EDT" name="setup" finished-at="2021-07-31T15:53:48 EDT" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openurl()[pri:0, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:48 EDT" name="openurl" finished-at="2021-07-31T15:53:50 EDT" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="signin()[pri:1, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:50 EDT" name="signin" finished-at="2021-07-31T15:53:51 EDT" depends-on-methods="HW4.HW4Class11.openurl" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="enteremailaddress()[pri:2, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:51 EDT" name="enteremailaddress" finished-at="2021-07-31T15:53:51 EDT" depends-on-methods="HW4.HW4Class11.signin" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteremailaddress -->
+        <test-method signature="clicksubmit()[pri:3, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:51 EDT" name="clicksubmit" finished-at="2021-07-31T15:53:51 EDT" depends-on-methods="HW4.HW4Class11.enteremailaddress" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksubmit -->
+        <test-method signature="personalinfo()[pri:4, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:51 EDT" name="personalinfo" finished-at="2021-07-31T15:53:53 EDT" depends-on-methods="HW4.HW4Class11.clicksubmit" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalinfo -->
+        <test-method signature="selectMr()[pri:5, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:53 EDT" name="selectMr" finished-at="2021-07-31T15:53:54 EDT" depends-on-methods="HW4.HW4Class11.personalinfo" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMr -->
+        <test-method signature="firstName()[pri:6, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:54 EDT" name="firstName" finished-at="2021-07-31T15:53:54 EDT" depends-on-methods="HW4.HW4Class11.selectMr" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstName -->
+        <test-method signature="lastName()[pri:7, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:54 EDT" name="lastName" finished-at="2021-07-31T15:53:54 EDT" depends-on-methods="HW4.HW4Class11.firstName" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastName -->
+        <test-method signature="Password()[pri:8, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:54 EDT" name="Password" finished-at="2021-07-31T15:53:54 EDT" depends-on-methods="HW4.HW4Class11.lastName" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method signature="selectdays()[pri:9, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:53:54 EDT" name="selectdays" finished-at="2021-07-31T15:54:05 EDT" depends-on-methods="HW4.HW4Class11.Password" duration-ms="10811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectdays -->
+        <test-method signature="selectmonths()[pri:9, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:05 EDT" name="selectmonths" finished-at="2021-07-31T15:54:15 EDT" depends-on-methods="HW4.HW4Class11.selectdays" duration-ms="10471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectmonths -->
+        <test-method signature="selectYears()[pri:10, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:15 EDT" name="selectYears" finished-at="2021-07-31T15:54:26 EDT" depends-on-methods="HW4.HW4Class11.selectmonths" duration-ms="10457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectYears -->
+        <test-method signature="selectsignupnewsletter()[pri:11, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:26 EDT" name="selectsignupnewsletter" finished-at="2021-07-31T15:54:26 EDT" depends-on-methods="HW4.HW4Class11.selectYears" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectsignupnewsletter -->
+        <test-method signature="selectspecialoffer()[pri:12, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:26 EDT" name="selectspecialoffer" finished-at="2021-07-31T15:54:26 EDT" depends-on-methods="HW4.HW4Class11.selectsignupnewsletter" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectspecialoffer -->
+        <test-method signature="Companyname()[pri:13, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:26 EDT" name="Companyname" finished-at="2021-07-31T15:54:26 EDT" depends-on-methods="HW4.HW4Class11.selectspecialoffer" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Companyname -->
+        <test-method signature="Address()[pri:14, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:26 EDT" name="Address" finished-at="2021-07-31T15:54:26 EDT" depends-on-methods="HW4.HW4Class11.Companyname" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Address -->
+        <test-method signature="City()[pri:15, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:26 EDT" name="City" finished-at="2021-07-31T15:54:26 EDT" depends-on-methods="HW4.HW4Class11.Address" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- City -->
+        <test-method signature="State()[pri:16, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:26 EDT" name="State" finished-at="2021-07-31T15:54:28 EDT" depends-on-methods="HW4.HW4Class11.City" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- State -->
+        <test-method signature="ZipCode()[pri:17, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:28 EDT" name="ZipCode" finished-at="2021-07-31T15:54:28 EDT" depends-on-methods="HW4.HW4Class11.State" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZipCode -->
+        <test-method signature="Additionalinfo()[pri:17, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:28 EDT" name="Additionalinfo" finished-at="2021-07-31T15:54:28 EDT" depends-on-methods="HW4.HW4Class11.ZipCode" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Additionalinfo -->
+        <test-method signature="PhoneNumber()[pri:17, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:28 EDT" name="PhoneNumber" finished-at="2021-07-31T15:54:28 EDT" depends-on-methods="HW4.HW4Class11.Additionalinfo" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhoneNumber -->
+        <test-method signature="MobileNumber()[pri:18, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:28 EDT" name="MobileNumber" finished-at="2021-07-31T15:54:28 EDT" depends-on-methods="HW4.HW4Class11.PhoneNumber" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileNumber -->
+        <test-method signature="Assignanaddressforfuturereference()[pri:19, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:28 EDT" name="Assignanaddressforfuturereference" finished-at="2021-07-31T15:54:28 EDT" depends-on-methods="HW4.HW4Class11.MobileNumber" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assignanaddressforfuturereference -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:HW4.HW4Class11@78b66d36]" started-at="2021-07-31T15:54:28 EDT" name="closeTab" finished-at="2021-07-31T15:54:28 EDT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+      </class> <!-- HW4.HW4Class11 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

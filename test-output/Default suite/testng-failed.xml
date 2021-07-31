@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="HW4.HW4Class11">
+        <methods>
+          <include name="City"/>
+          <include name="Address"/>
+          <include name="Companyname"/>
+          <include name="clicksubmit"/>
+          <include name="lastName"/>
+          <include name="selectdays"/>
+          <include name="selectMr"/>
+          <include name="selectYears"/>
+          <include name="setup"/>
+          <include name="selectspecialoffer"/>
+          <include name="enteremailaddress"/>
+          <include name="Password"/>
+          <include name="selectsignupnewsletter"/>
+          <include name="closeTab"/>
+          <include name="personalinfo"/>
+          <include name="firstName"/>
+          <include name="openurl"/>
+          <include name="State"/>
+          <include name="signin"/>
+          <include name="selectmonths"/>
+        </methods>
+      </class> <!-- HW4.HW4Class11 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
